@@ -36,10 +36,12 @@ The solution is designed for applications in:
 - Image Format: JPG
 
 Folder Structure:
+```
 classification_dataset/
     train/
     valid/
     test/
+```
 
 Class Distribution:
 - Train → Bird: 1414, Drone: 1248
@@ -111,11 +113,13 @@ streamlit run app.py
 
 ## Project Structure
 
+```
 Aerial-Object-Classification/
 │── notebook.ipynb
 │── app.py
 │── best_model.h5
 │── README.md
+```
 
 (Note: Dataset not included due to large size)
 
